@@ -1,0 +1,278 @@
+.lightmode .last-transactions-row::-webkit-scrollbar {
+    width: 5px;
+    background-color: #cdcdcd;
+    border-radius: 100px;
+}
+.lightmode .last-transactions-row::-webkit-scrollbar-thumb {
+    background-color: #A09EFF;
+    border-radius: 100px;
+    box-shadow: inset 1px 1px 10px #f3faf7;
+    height: 20px!important;
+}
+.lightmode input[type="date"]::-webkit-calendar-picker-indicator {
+	filter: invert(1%) brightness(100%) contrast(200%);
+}
+html,body.lightmode{
+	color: #1E1F21;
+}
+.lightmode .switch{
+	justify-content: flex-start;
+	background-color: #f1f1f1;
+}
+.lightmode .light-switch img[mod="light"]{
+	filter: invert(66%) sepia(60%) saturate(2829%) hue-rotate(205deg) brightness(140%) contrast(65%);
+}
+.lightmode .light-switch img[mod="dark"]{
+	filter: invert(1%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(125%) contrast(83%);
+}
+.lightmode .light-switch img:hover{
+	filter: invert(66%) sepia(60%) saturate(2829%) hue-rotate(205deg) brightness(140%) contrast(65%);
+}
+.lightmode .user-photo-title{
+	border: 1px solid #c4c4c4;
+}
+.lightmode .small-text{
+	color:#CDCDCD;
+}
+.lightmode{
+	background-color: #F9F9F9;
+}
+.lightmode header{
+	background-color: #fff;
+}
+.lightmode h2 .logo{
+	color: #1E1F21;
+}
+.lightmode nav ul li a{
+	color: #B4BDC9;
+}
+.lightmode nav ul li img{
+	filter: invert(1%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(160%) contrast(83%);
+}
+.lightmode header img.arrow-down{
+	filter: invert(90%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(160%) contrast(99%);
+}
+.lightmode .balance{
+	background-color: #1E1F21;
+	color: #fff;
+}
+.lightmode .balance h3:nth-child(2), .lightmode .balance h3:nth-child(4){
+	color: #696363;
+}
+.lightmode .sub-title a{
+	color: #CDCDCD;
+}
+.lightmode .sub-title a img {
+	filter: unset;
+  filter: invert(10%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(95%) contrast(83%);
+}
+.lightmode .sub-title a:hover img{
+  filter: invert(66%) sepia(60%) saturate(2829%) hue-rotate(205deg) brightness(540%) contrast(40%);
+}
+.lightmode .operations-item{
+	background-color: #fff;
+	color: #1E1F21;
+}
+.lightmode .operation-item-image{
+	background-color: rgba(205, 205, 205, 0.1);
+}
+.lightmode .operation-item-image img{
+	filter: invert(90%) sepia(0%) hue-rotate(205deg) brightness(100%) contrast(100%);
+}
+.lightmode .button:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.0);
+  color:  #1E1F21;
+}
+.lightmode .last-transactions{
+	background-color: #fff;
+}
+.lightmode .card-date{
+	color: #cdcdcd;
+}
+.lightmode .card-item .sub-title p{
+	color: #cdcdcd;
+}
+.lightmode form{
+	background: #fff;
+}
+.lightmode form input{
+	background-color: #F9F9F9;
+	border: 1px solid #cdcdcd;
+	color: #cdcdcd;
+}
+.lightmode form input[type="submit"]{
+	background-color:#A09EFF;
+	color: #1E1F21;
+	border: 1px solid #A09EFF;
+}
+.lightmode form input[type="submit"]:hover{
+  background-color: rgba(0, 0, 0, 0.0);
+  color: #1E1F21;
+}
+.lightmode input::placeholder{
+	color: #cdcdcd;
+}
+.lightmode input:focus::placeholder{
+	color: #1E1F21;
+	transition: 0.3s;
+}
+.lightmode input:hover::placeholder{
+	color: #1E1F21;
+	transition: 0.3s;
+}
+.lightmode input:focus{
+	color: #1E1F21;
+	border: 1px solid #1E1F21;
+}
+.lightmode input:hover{
+	color: #1E1F21;
+	border: 1px solid #1E1F21;
+}
+.lightmode .card-issue{
+	background: #fff;
+}
+.lightmode .card-item{
+	background: #fff;
+}
+.lightmode .user-settings-info{
+	background-color: #fff;
+}
+.lightmode .change-pass{
+	background-color: #fff;
+}
+.lightmode .change-pass h3{
+	color: #cdcdcd;
+}
+.lightmode .new-pass.pass-item img{
+	filter: invert(1%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(225%) contrast(83%);
+}
+.lightmode .new-pass.pass-item input:hover + img{
+	filter: unset;
+	filter: invert(0%) sepia(42%) saturate(14%) hue-rotate(193deg) brightness(90%) contrast(100%);
+}
+.lightmode .new-pass.pass-item input:focus + img{
+	filter: unset;
+	filter: invert(0%) sepia(42%) saturate(14%) hue-rotate(193deg) brightness(90%) contrast(100%);
+}
+.lightmode .popup-header{
+	background-color: #fdfdfd;
+}
+.lightmode .popup-header::before{
+	border-bottom: 14px solid #fdfdfd;
+}
+.lightmode .popup-header a:nth-child(1){
+	color: #B4BDC9;
+}
+.lightmode .account:hover img.arrow-down{
+  filter: invert(66%) sepia(60%) saturate(2829%) hue-rotate(205deg) brightness(540%) contrast(40%);
+  transform: rotate(180deg);
+  transition: 0.3s;
+}
+.lightmode .personal-info-container{
+	background-color: #fff;
+}
+.lightmode .personal-info-item h3{
+	color: #cdcdcd;
+}
+.lightmode .numbers a{
+	color: #1E1F21;
+}
+.lightmode .card-text-info-row  h3.left{
+	color: #cdcdcd;
+}
+.lightmode .card-info{
+	background-color: #fff;
+}
+.lightmode .border-dashed{
+	border-bottom: 1px dashed #cdcdcd;
+}
+.lightmode .card-info-tabs:after{
+	border-bottom: 1px solid #cdcdcd;
+}
+.lightmode .finances{
+	background-color: #fff;
+}
+.lightmode .finances-title{
+	color: #cdcdcd;
+}
+.lightmode .finances-menu a{
+	color: #B4BDC9;
+}
+.finances.bottom{
+	background-color: unset;
+}
+.lightmode .finances-menu a:hover img{
+  filter: invert(66%) sepia(60%) saturate(2829%) hue-rotate(205deg) brightness(140%) contrast(65%);
+  transition: 0.3s;
+}
+.lightmode .select__toggle{
+	background-color: #f9f9f9;
+	border: 1px solid #cdcdcd;
+	color: #cdcdcd;
+}
+.lightmode .select__toggle:hover{
+	border: 1px solid #1E1F21;
+	color: #1E1F21;
+	transition: 0.3s;
+}
+.lightmode .select__toggle:focus{
+  border: 1px solid #1E1F21;
+  color: #1E1F21;
+  transition: 0.3s;
+}
+.lightmode .select__toggle::after{
+	filter: invert(10%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(95%) contrast(83%);
+}
+.lightmode .select__toggle:hover::after{
+	filter: invert(70%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(95%) contrast(83%);
+}
+.lightmode .select__toggle:focus::after{
+	filter: invert(70%) sepia(0%) saturate(0%) hue-rotate(146deg) brightness(95%) contrast(83%);
+}
+.lightmode .select__dropdown {
+	border: 1px solid #1E1F21;
+	background-color: #f9f9f9;
+}
+.lightmode .last-transactions .darkbg{
+	background: linear-gradient(to bottom, rgba(255, 255, 255, 0.0001), rgba(255, 255, 255, 0.7));
+}
+.lightmode .last-transactions-item-left img{
+	border: 1px solid #f1f1f1;
+}
+.lightmode .cards-row .card-item .card-image{
+	background: rgba(0, 0, 0, .9);
+}
+.lightmode .card-info  .card-image{
+	background: rgba(0, 0, 0, .9);
+}
+.lightmode .cards-row .card-item .card-image h3{
+	color: #fff;
+}
+.lightmode .settings-user-photo{
+	border: 1px solid #c4c4c4;
+}
+.lightmode header img.user-photo{
+	border: 1px solid #c4c4c4;
+}
+.lightmode.reg{
+	  background-color: #fff;
+}
+@media(max-width: 768px){
+	.lightmode .small-text{
+		font-size: 10px;
+		color: #cdcdcd;
+	}
+	.lightmode  .top-links a{
+		color: #A09EFF;
+	}
+	.lightmode .finances.bottom a{
+		background-color: #fff;
+	}
+	.lightmode .opacity-bg{
+		background-color: rgba(0, 0, 0, 0.4);
+	}
+	.lightmode .sign-main{
+  background-color: #fff;
+}
+}

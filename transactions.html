@@ -1,0 +1,872 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Transactions</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/dark-theme.css">
+	<link rel="stylesheet" href="css/light-theme.css">
+</head>
+<body class="lightmode">
+	<header>
+		<div class="container">
+			<div class="header-inner">
+				<h2 class="bold desktop">
+					<a class="logo" href="">Titan</a>
+				</h2>
+				<nav>
+					<ul>
+						<li><a href="index.html"><img src="img/House.svg" alt=""><h3 class="medium">Home</h3></a></li>
+						<li><a href="my_cards.html"><img src="img/Credit_card.svg" alt=""><h3 class="medium">My cards</h3></a></li>
+						<li class="active"><a href="transactions.html"><img src="img/Connection.svg" alt=""><h3 class="medium">Transactions</h3></a></li>
+						<li><a href="settings.html"><img src="img/Setting.svg" alt=""><h3 class="medium">Settings</h3></a></li>
+					</ul>
+				</nav>
+				<div class="header-right desktop">
+					<div class="light-switch">
+						<img mod="light" src="img/Sun.svg" alt="">
+						<div class="switch">
+							<div class="switch-round"></div>
+						</div>
+						<img mod="dark" src="img/Moon.svg" alt="">
+					</div>
+					<a href="" class="notifications">
+						<img src="img/Bell.svg" alt="">
+						<div class="count">2</div>
+					</a>
+					<div class="account">
+						<a href=""><img class="user-photo" src="img/User_photo.png" alt=""></a>
+						<h3 class="regular">Sergei Golov</h3>
+						<img class="arrow-down" src="img/Arrow_down.svg" alt="">
+						<div class="popup-header">
+							<a href=""><p>Another account</p></a>
+							<a href=""><p class="medium red">Sign out</p></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="transaction-page">
+			<div class="container">
+				<h1 class="page-title bold">
+					<div class="page-title-container">
+						Transactions
+					</div>
+					<a href="" class="notifications mob">
+						<img src="img/Bell.svg" alt="">
+						<div class="count">2</div>
+					</a>
+				</h1>
+				<div class="content">
+					<div class="top-links mob">
+						<a class="popup-open">
+							<p>Filter</p>
+							<img src="img/Add New.svg" alt="">
+						</a>
+						<a href="">
+							<p>Download</p>
+							<img src="img/upload.svg" alt="">
+						</a>
+					</div>
+					<div class="left-block">
+						<div class="last-transactions">
+							<div class="sub-title">
+								<h2 class="bold">Found <span>15 Results</span></h2>
+								<a href="" class="desktop">
+									<p><span>Download<img class="bluearrow-down" src="img/upload.svg" alt=""></span></p>
+								</a>
+							</div>
+							<div class="last-transactions-row">
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/User_photo.png" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Alex Glazyrin</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold green">+$2.300</h3>
+											<p class="small-text bank">City Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+								<div class="last-transactions-item">
+									<div class="last-transactions-item-left">
+										<img src="img/Apple.svg" alt="">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Apple Itunes</h3>
+											<p class="small-text">Entertaiment</p>
+											<p class="small-text">Mar 6, 2022, 03:32 PM</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-middle">
+										<div class="last-transactions-item-text">
+											<h3 class="bold red">-$30</h3>
+											<p class="small-text bank">DS Bank</p>
+										</div>
+									</div>
+									<div class="last-transactions-item-right">
+										<div class="last-transactions-item-text">
+											<h3 class="medium">Mar 6, 2022</h3>
+											<p class="small-text date">03:32 PM</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="darkbg"></div>
+						</div>
+					</div>
+					<div class="right-block">
+						<form class="filter popup" action="">
+							<div class="form-title">
+								<h3 class="medium">Filter</h3>
+								<p class="form-clear red bold">Clear <img src="img/Trash.svg" alt=""></p>
+							</div>
+							<div class="from-to-inputs">
+								<input type="text" data="from" placeholder="from" onfocus="(this.type='date')" onblur="(this.type='text')">
+								<input type="text" data="to" placeholder="to" onfocus="(this.type='date')" onblur="(this.type='text')">
+							</div>
+							<div class="select" id="select-1">
+								<button type="button" class="select__toggle" name="car" value="Account 1" data-select="toggle" data-index="0">
+								Choose account</button>
+								<div class="select__dropdown">
+									<ul class="select__options">
+										<li class="select__option select__option_selected" data-select="option" data-value="Account 1" data-index="0">Account 1</li>
+										<li class="select__option " data-select="option" data-value="Account 2" data-index="1">Account 2</li>
+										<li class="select__option" data-select="option" data-value="Account 3" data-index="2">Account 3</li>
+										<li class="select__option" data-select="option" data-value="Account 4" data-index="3">Account 4</li>
+									</ul>
+								</div>
+							</div>
+							<div class="select" id="select-2">
+								<button type="button" class="select__toggle" name="car" value="Transaction 1" data-select="toggle" data-index="0">
+								Transaction type</button>
+								<div class="select__dropdown">
+									<ul class="select__options">
+										<li class="select__option select__option_selected" data-select="option" data-value="Transaction 1" data-index="0">Transaction 1</li>
+										<li class="select__option " data-select="option" data-value="Transaction 2" data-index="1">Transaction 2</li>
+										<li class="select__option" data-select="option" data-value="Transaction 3" data-index="2">Transaction 3</li>
+										<li class="select__option" data-select="option" data-value="Transaction 4" data-index="3">Transaction 4</li>
+									</ul>
+								</div>
+							</div>
+							<div class="select" id="select-3">
+								<button type="button" class="select__toggle" name="car" value="Group 1" data-select="toggle" data-index="0">
+								Filter by group</button>
+								<div class="select__dropdown">
+									<ul class="select__options">
+										<li class="select__option select__option_selected" data-select="option" data-value="Group 1" data-index="0">Group 1</li>
+										<li class="select__option " data-select="option" data-value="Group 2" data-index="1">Group 2</li>
+										<li class="select__option" data-select="option" data-value="Group 3" data-index="2">Group 3</li>
+										<li class="select__option" data-select="option" data-value="Group 4" data-index="3">Group 4</li>
+									</ul>
+								</div>
+							</div>
+							<input type="search" placeholder="Search...">
+							<input type="submit" value="Filter">
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+	<div class="opacity-bg"></div>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+	<script src="js/custom-select.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>
